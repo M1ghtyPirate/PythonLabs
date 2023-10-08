@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PythonLab01", "PythonLab01\PythonLab01.pyproj", "{2046BE5B-16C4-4DAD-B05E-96CA3A54BA9C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{1F32A253-C375-4935-91AC-CCF6562B6B29}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2046BE5B-16C4-4DAD-B05E-96CA3A54BA9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2046BE5B-16C4-4DAD-B05E-96CA3A54BA9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {87483DAE-0245-491C-A5E8-6F5FF2136388}
+	EndGlobalSection
+EndGlobal
