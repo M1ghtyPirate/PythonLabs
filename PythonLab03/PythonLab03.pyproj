@@ -2,15 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>9b1d76e8-25b6-4dea-bd07-1327b059e5f0</ProjectGuid>
+    <ProjectGuid>bdf08674-f71c-42ef-bc8d-36cd1a9defdd</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>DrawMultiColoredRectangle.py</StartupFile>
+    <StartupFile>ChangeChannelsHistogram.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>PythonLab02</Name>
-    <RootNamespace>PythonLab02</RootNamespace>
+    <Name>PythonLab03</Name>
+    <RootNamespace>PythonLab03</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,28 +21,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="DrawMultiColoredRectangle.py" />
-    <Compile Include="DrawColoredRectangleRecolor.py" />
-    <Compile Include="DrawColoredRectanglePercent.py" />
-    <Compile Include="DrawColoredRectangle.py" />
-    <Compile Include="DrawGreenSquare.py" />
-    <Compile Include="DrawGrayRectangle.py" />
-    <Compile Include="DrawWhiteSquare.py" />
-    <Compile Include="DrawRedSquareHex.py" />
-    <Compile Include="DrawRedSquare.py" />
-    <Compile Include="DrawBlackSquare.py" />
-    <Compile Include="SaveImage.py" />
-    <Compile Include="ChangeModeConvertP.py" />
-    <Compile Include="ChangeModeConvertGrayscale.py" />
-    <Compile Include="ChangeModeConvert.py" />
-    <Compile Include="ChangeModeMerge.py" />
-    <Compile Include="ChangePixelLoad.py" />
-    <Compile Include="ChangePixelPut.py" />
-    <Compile Include="PythonLab02.py" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Image01.jpg" />
-    <Content Include="Image02.jpg" />
+    <Compile Include="ChangeChannelsHistogram.py" />
+    <Compile Include="ChangeChannelsMerge.py" />
+    <Compile Include="ChangeChannelsPutPixel.py" />
+    <Compile Include="PythonLab03.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
